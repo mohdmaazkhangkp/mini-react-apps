@@ -1,0 +1,59 @@
+body{
+    background-color: cadetblue;
+}
+button{
+    background-color: teal;
+    color: white;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border: none;
+}
+
+.container{
+    margin-inline: 10vw;
+    margin-block: 10vh;
+    background-color: white;
+    min-height: 50vh;
+    padding: 20px;
+    
+}
+.header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+.heading{
+    color: rgb(2, 92, 92);
+}
+.searchBox{
+    display: flex;
+    width: 100%;
+    background-color: red;
+}
+input{
+    width: 100%;
+    border: 2px solid teal;
+    padding: 10px;
+    outline: none;
+}
+.tasksList{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    border: 1px teal solid;
+    padding: 5px;
+}
+
+.removeBtn{
+    height: min-content;
+}
+.removeAllBtn{
+    width: max-content;
+    margin-inline: auto;
+}

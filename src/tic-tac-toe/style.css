@@ -1,0 +1,30 @@
+body{
+    background-color: thistle;
+}
+.board-container{
+    margin-inline: 35%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board-row{
+    display: flex;
+}
+
+.square{
+    border: 1px solid teal;
+    height:100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+.winned{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,51 @@
+*{
+    color: white;
+}
+.container{
+    background-color: thistle;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.displayBox{
+    display: flex;
+    justify-content: flex-end;
+}
+.displayBox input{
+    background-color: black;
+    height: 70px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-align: right;
+    border-radius: 10px;
+    width: 250px;
+    
+}
+
+.inputButtons{}
+
+.buttonRow{
+    display: flex;
+}
+
+.buttonRow input{
+    width: 60px;
+    height: 60px;
+    background-color: teal;
+    border: none;
+    margin: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
